@@ -1,5 +1,14 @@
+body, html, main, nav,
+ section, ul, li, a,
+ img, svg, aside, div, p {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 body {
     background-color: rgb(179, 115, 219);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 main {
     width: 800px;
@@ -11,8 +20,8 @@ main {
     border-radius: 50px;
     margin-top: 50px;
     position: absolute;
-    top: 306px;
-    right: 30px;
+    top: 335px;
+    right: 297px;
     width: 323px;
     height: 224px;
 }
@@ -26,10 +35,15 @@ main {
     padding: 10px 60px ;
     border-radius: 50px;
     margin-top: 50px;
+    position: absolute;
+    right: 771px;
+    top: 335px;
+    width: 323px;
+    height: 224px;
 }
 figure{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
@@ -42,4 +56,24 @@ img {
 }
 .nome{
     text-align: center;
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.principal button{
+    border: none;
+    position: absolute;
+    border-radius: 0.4rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(227, 182, 235);
+    height: 45px;
+    left: 630px;
+    top: 665px;
+    font-size: 25px;
+    box-shadow: 0 6px 16px purple, 0 0 12px plum;
 }
